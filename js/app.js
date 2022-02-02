@@ -23,3 +23,8 @@ reset.addEventListener('click', function(){
   toDo.value = ''
 })
 
+list.addEventListener('click', function(evt){
+// When a list item is clicked, remove that item
+  evt.target.remove()
+})
+
